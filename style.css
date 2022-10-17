@@ -1,0 +1,111 @@
+body {
+    background-color: #495af2;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    border: 2px solid #fff;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 200px;
+    height: 150px;
+}
+
+.counters {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin: auto;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.counter-name {
+    font-size: 20px;
+    margin: 0;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.field {
+    background-color: transparent;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.result {
+    color: #fff;
+}
+
+.play {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    cursor: pointer;
+
+}
+
+.rock {
+    background-image: url('./img/rock.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.paper {
+    background-image: url('./img/paper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.scrissors{
+    background-image: url('./img/scissors.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.active{
+    background-color: darkgreen;
+}
+
+.error {
+    background-color: darkred;
+}
+
+@keyframes blink {
+	100% {background-color: green;}
+}
+
+.blink {
+    animation: blink 0.3s linear infinite;
+}

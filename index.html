@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Game</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="./img/rock--paper--scissors--guessing-gesture_2625490.svg" alt="title" class="logo-img">
+    </div>
+    <div class="container">
+        <div class="counters">
+            <div>
+                <span class="counter counter-user">0</span>
+                <p class="counter-name">user</p>
+            </div> : 
+            <div>
+                <span class="counter counter-bot">0</span>
+                <p class="counter-name">bot</p>
+            </div>
+        </div>
+        <div class="fields">
+            <div class="user-fields">
+                <button class="field user-field rock" data-field="r"></button>
+                <button class="field user-field scrissors" data-field="s"></button>
+                <button class="field user-field paper" data-field="p"></button>
+            </div>
+            <div class="bot-fields">
+                <button class="field bot-field rock" data-field="r"></button>
+                <button class="field bot-field scrissors" data-field="s"></button>
+                <button class="field bot-field paper" data-field="p"></button>
+            </div>
+        </div>
+        <h2 class="result">Make a choice...</h2>    
+    </div>
+    <button class="play">Play again</button>
+</body>
+</html>
